@@ -1,0 +1,4 @@
+Ê×Ò³£º
+ÂÖ²¥Í¼£ºhttps://m.bd-ego.com/bd-marketing/api/channel/getNewHeadPageData?_t=1547205499891
+	https://m.bd-ego.com/bd-marketing/api/channel/getNewHeadPageData?_t=1547255240323
+https://m.bd-ego.com/bd-content/api/popup/showPopupAd?location=INDEX&_t=1547255240323
