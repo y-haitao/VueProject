@@ -1,22 +1,22 @@
 <template>
-  <!-- app 是我们项目的根组件 -->
-  <div id="app">
-    <!-- 上方切换的 router 部分 -->
-    <router-view/>
-    <!-- 下方固定的部分 -->
-      <mt-tabbar v-model="selected" fixed>
-        <mt-tab-item
-          :id="tab.name"
-          v-for="tab in tabs"
-          :key="tab.name"
-          @click.native="goto(tab.path)"
-        >
-          <i :class="['iconfont',tab.icon]"></i><br/>
-          {{tab.text}}
-        </mt-tab-item>
-      </mt-tabbar>
-    <!-- </div> -->
-  </div>
+    <!-- app 是我们项目的根组件 -->
+    <div id="app">
+        <!-- 上方切换的 router 部分 -->
+        <router-view/>
+  
+        <!-- 下方固定的部分 -->
+        <mt-tabbar v-model="selected" fixed>
+            <mt-tab-item
+              :id="tab.name"
+              v-for="tab in tabs"
+              :key="tab.name"
+              @click.native="goto(tab.path)"
+            >
+              <i :class="['iconfont',tab.icon]"></i><br/>
+              {{tab.text}}
+            </mt-tab-item>
+        </mt-tabbar>
+    </div>
 </template>
 <script>
 import Vue from "vue";
@@ -79,6 +79,7 @@ export default {
 @import '../src/css/base.css';
 #app{
   background-color: #f4f4f4;
+  height: 100%;
 }
 .mint-tabbar {
   background: #fff;
