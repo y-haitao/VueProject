@@ -12,13 +12,200 @@
                     <img :src="item.url" alt="">
                 </mt-swipe-item>
             </mt-swipe>
+            <!-- 九宫格 -->
+            <div class="jiu-top">
+                <img class="bdimg" :src="bdimg" alt="">
+            </div>
+            <div class="jiu-bottom">
+                <ul class="jiu-ul">
+                    <li class="jiu-li" v-for="ji in jiuImg" :key="ji.jid">
+                        <a href="javascript:;">
+                            <img class="jiuImg" :src="ji.url" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ========== -->
+            <div class="dt">
+                <img class="dongtu" :src="dongtu" alt="">
+            </div>
+            <div class="hf">
+                <img class="hefei" :src="hefei" alt="">
+            </div>
+            <div class="max-img">
+                <div v-for="maximg in maxImg" :key="maximg.url">
+                    <img class="maxImg" :src="maximg.url" alt="">
+                </div>
+            </div>
+            <!-- =========== -->
+            <!-- 限时秒杀 -->
+            <div class="header-ms">
+                <div class="ms-top">
+                    <h2>限时秒杀</h2>
+                </div>
+                <cube-scroll
+                    ref="scroll"
+                    :data="itemGd"
+                    direction="horizontal"
+                    class="horizontal-scroll-list-wrap">
+                    <ul class="list-wrapper">
+                        <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                            <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                            <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                            <p class="gd-p">￥{{gd.salePrice}}</p>
+                        </li>
+                    </ul>
+                </cube-scroll>
+            </div>
+            <!-- 每日必逛 -->
+            <div class="header-bg">
+                <div class="pl-title">
+                    <img class="bg-title" :src="bgtitle" alt="">
+                </div>
+                <div class="bg-bottom">
+                    <ul class="bg-ul">
+                        <li class="bg-li" v-for="bg in bgimg" :key="bg.url">
+                            <a href="javascript:;">
+                                <img class="bg-img" :src="bg.url" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 品类聚焦 -->
             <div class="header-pl">
-                <div class="pl-title" v-for="plt in plTitle" :key="plt.pid">
-                    <img :src="plt.url" alt="" />
+                <div class="pl-title">
+                    <img :src="pltitel" alt="" />
                 </div>
                 <div class="pl"> 
-                    <div class="pl-top" v-for="gd in gdImg" :key="gd.tid">
-                    <img class="pl-img" :src="gd.url" alt="">
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd1" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd2" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd3" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd4" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd5" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd6" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd7" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
+                    <div class="pl-top">
+                        <img class="pl-img" :src="gd8" alt="">
                     </div>
                     <div class="pl-bottom">
                         <cube-scroll
@@ -37,6 +224,7 @@
                     </div>
                 </div>
             </div>
+            <!-- 热门商品 -->
             <div class="header-rm">
                 <p class="hr-p">热门商品</p>
                 <ul class="hr-ul">
@@ -67,6 +255,20 @@ import "mint-ui/lib/style.css";
 //引入cube-ui
 import Cube from 'cube-ui'
 Vue.use(Cube)
+//引入图片
+import bdimg from '../assets/home/bdimg.png'
+import dongtu from '../assets/home/dongtu.gif'
+import hefei from '../assets/home/hefei.png'
+import bgtitle from '../assets/home/bgtitle.png'
+import pltitel from '../assets/home/pltitle.png'
+import gd1 from '../assets/home/gd1.png'
+import gd2 from '../assets/home/gd2.png'
+import gd3 from '../assets/home/gd3.png'
+import gd4 from '../assets/home/gd4.png'
+import gd5 from '../assets/home/gd5.png'
+import gd6 from '../assets/home/gd6.png'
+import gd7 from '../assets/home/gd7.png'
+import gd8 from '../assets/home/gd8.png'
 
 export default {
     data(){
@@ -115,17 +317,82 @@ export default {
             ],
             itemList:[],
             itemGd:[],
-            plTitle:[
+            bgtitle,
+            pltitel:pltitel,
+            gd1:gd1,
+            gd2:gd2,
+            gd3:gd3,
+            gd4:gd4,
+            gd5:gd5,
+            gd6:gd6,
+            gd7:gd7,
+            gd8:gd8,
+            bgimg:[
                 {
-                    pid:"1",
-                    url:"https://img.allpyra.com/c7f3a217-23ad-4a28-8270-909c70a47297.png"
+                    url:"https://img.allpyra.com/12b0976f-66b3-470d-8bb3-54af1e33e7d1.png"
+                },
+                {
+                    url:"https://img.allpyra.com/6006f0bf-f707-40a4-8f9f-61ba4cc8d488.png"
+                },
+                {
+                    url:"https://img.allpyra.com/9acca8e6-c27c-45b4-b9d4-66e2ba1ca64f.png"
+                },
+                {
+                    url:"https://img.allpyra.com/e33563e2-ad1f-4ce8-a1a5-72b9c67d9bd2.png"
                 }
             ],
-            gdImg:[
+            maxImg:[
                 {
-                    tid:"1",
-                    url:"https://img.allpyra.com/cf28f7c7-b0fe-4516-8ee0-50f25b496e2b.png"
+                    url:"https://img.allpyra.com/4264e5a0-6536-4fb1-bd5b-5e6956f6ce9e.png"
+                },
+                {
+                    url:"https://img.allpyra.com/ddd57868-5a8f-4779-a965-3cbf21e9b5a5.png"
                 }
+            ],
+            hefei:hefei,
+            dongtu:dongtu,
+            bdimg:bdimg,
+            jiuImg:[
+                {
+                    jid:"0",
+                    url:"https://img.allpyra.com/099e6347-4581-418c-ae16-82b984ae719c.png"
+                },
+                {
+                    jid:"1",
+                    url:"https://img.allpyra.com/dd7a866a-f540-4335-8b03-1ff56a4469d6.png"
+                },
+                {
+                    jid:"2",
+                    url:"https://img.allpyra.com/8e6a523f-25af-4034-ab7d-d6ecdcc02e14.png"
+                },
+                {
+                    jid:"3",
+                    url:"https://img.allpyra.com/e6d36e5d-66cc-4df5-9be2-8ba5d5ee0b16.png"
+                },
+                {
+                    jid:"4",
+                    url:"https://img.allpyra.com/87ac0175-c6ed-4306-8318-953195bd5839.png"
+                },
+                {
+                    jid:"5",
+                    url:"https://img.allpyra.com/764a5f9d-82e0-429b-9a61-f26ccebd5965.png"
+                },
+                {
+                    jid:"6",
+                    url:"https://img.allpyra.com/ad373722-d83d-4c8c-89bc-81da66d7f691.png"
+                },
+                {
+                    jid:"7",
+                    url:"https://img.allpyra.com/c981b66a-9974-4074-9b13-0daf187266fd.png"
+                },
+                {
+                    jid:"8",
+                    url:"https://img.allpyra.com/15a2fb70-e149-4e9f-af9e-021c66228847.png"
+                },
+                {
+                    jid:"9",
+                    url:"https://img.allpyra.com/69c7feec-2f47-4017-801d-f0eebdfb1a8c.png"
+                },
             ]
         }
     },
@@ -189,11 +456,42 @@ export default {
 .list-wrapper{
     height: 100%;
 }
+.jiu-li{
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+.jiuImg{
+    width: 100%;
+    height: 100%;
+}
+.bdimg{
+    width: 100%;
+}
+.dongtu{
+    width: 100%;
+}
+.hefei{
+    width: 100%;
+}
+.maxImg{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
 .pl-title>img{
     width: 100%;
 }
 .pl-img{
     width: 100%;
+}
+.bg-bottom .bg-li{
+    float: left;
+    width: 50%;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
 }
 .gd-img{
     width: 460px;
@@ -213,7 +511,7 @@ export default {
 .gd-p{
     padding: 10px 0;
     color: #e72714;
-    font-size: 36px;
+    font-size: 40px;
 }
 .list-item{
     padding-top: 26px;
@@ -250,6 +548,7 @@ export default {
     padding-left: 40px;
     box-sizing: border-box;
     border-bottom: 1px solid #eeeeee;
+    color: #000;
 }
 .hr-ul>li{
     width: 50%;
