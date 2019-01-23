@@ -25,6 +25,9 @@ import Vue from "vue";
 import MintUI from "mint-ui";
 Vue.use(MintUI);
 import "mint-ui/lib/style.css";
+//引入cube-ui
+import Cube from 'cube-ui'
+Vue.use(Cube)
 
 //引入 axios
 import axios  from "axios";

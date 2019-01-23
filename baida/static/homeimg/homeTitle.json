@@ -1,0 +1,753 @@
+{
+    "code": 1000,
+    "data": {
+        "hotSearch": [
+            "爱他美",
+            "MK",
+            "Coach",
+            "成人奶粉",
+            "阿迪达斯",
+            "娇韵诗",
+            "瑞士莲",
+            "Sony",
+            "UCC",
+            "瑞士莲",
+            "白酒"
+        ],
+        "list": [
+            {
+                "margin": "",
+                "pprd": "23023.1.",
+                "link": "",
+                "pageStyleId": 1,
+                "styleCode": "banner_list",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/1a9c960b-c08a-4dac-a30b-5b2e31b8b242.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901101819220209#!/index/1901101819220209/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/37743001-6706-4501-9a9b-a91a9cf19f49.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901210944080300#!/index/1901210944080300/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/651c8a94-be72-456a-be59-ff2209703907.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901211148490308#!/index/1901211148490308/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/4873914b-07f4-40ec-abfd-18a11de9abc9.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901181730580292#!/index/1901181730580292/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/d6d3c3a0-47ac-4d2a-9322-22e59b6363ec.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901161651450255#!/index/1901161651450255/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/803c5a1b-882f-4ed0-969b-37b42dccb085.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901181721530291#!/index/1901181721530291/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/f871d93b-f0eb-4486-a824-a0efc11647a3.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812291649580151#!/index/1812291649580151/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/53fe0fca-616c-4fe5-b20e-1dc82994baae.jpg",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1809061136360101#!/index/1809061136360101/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/98df72e8-b567-462d-baff-f39c5ed55dfc.png",
+                        "actLink": "http://m.bd-ego.com/afu/lp/index.html?actid=1901171459580939#!/index/1901171459580939/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/85be1afd-31f4-4aca-9a1b-cc8f1eb01895.jpg",
+                        "actLink": "http://m.bd-ego.com/afu/lp/index.html?actid=1806251629260370#!/index/1806251629260370/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/3c27fc70-2156-418c-b396-3f45e14e3810.png",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "sequence": 1,
+                "titleEn": "",
+                "attrSize": -1,
+                "width": "750",
+                "styleTitle": "Banner轮播",
+                "height": "376"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.60.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/47480ec8-5b77-4d13-a56c-018875d6bf56.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812071418270162#!/index/1812071418270162/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 2,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "86"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.70.",
+                "link": "",
+                "pageStyleId": 14,
+                "styleCode": "horizontal_five_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/099e6347-4581-418c-ae16-82b984ae719c.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1804201149080042#!/index/1804201149080042/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/dd7a866a-f540-4335-8b03-1ff56a4469d6.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1804231151380047#!/index/1804231151380047/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/8e6a523f-25af-4034-ab7d-d6ecdcc02e14.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807061247320196#!/index/1807061247320196/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/e6d36e5d-66cc-4df5-9be2-8ba5d5ee0b16.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1806271123000095#!/index/1806271123000095/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/87ac0175-c6ed-4306-8318-953195bd5839.png",
+                        "actLink": "https://m.bd-ego.com/afu/#/home"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 3,
+                "titleEn": "",
+                "attrSize": 5,
+                "width": "150",
+                "styleTitle": "一行五个图(可配置链接)",
+                "height": "168"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.25.",
+                "link": "",
+                "pageStyleId": 14,
+                "styleCode": "horizontal_five_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/764a5f9d-82e0-429b-9a61-f26ccebd5965.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807061242000195#!/index/1807061242000195/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/ad373722-d83d-4c8c-89bc-81da66d7f691.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807061201590198#!/index/1807061201590198/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/c981b66a-9974-4074-9b13-0daf187266fd.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1809061136360101#!/index/1809061136360101/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/15a2fb70-e149-4e9f-af9e-021c66228847.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1809211634390111#!/index/1809211634390111/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/69c7feec-2f47-4017-801d-f0eebdfb1a8c.png",
+                        "actLink": "https://m.bd-ego.com/search.html?appJson={\"type\":200}#!/index/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 4,
+                "titleEn": "",
+                "attrSize": 5,
+                "width": "150",
+                "styleTitle": "一行五个图(可配置链接)",
+                "height": "182"
+            },
+            {
+                "margin": "0",
+                "pprd": "23023.26.",
+                "link": "",
+                "pageStyleId": 12,
+                "styleCode": "horizontal_four_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/5bff3817-14a4-4d25-abb1-d674014b9aaa.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1804201149080042#!/index/1804201149080042/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/66cb1d57-a992-461f-b675-18e108bbb4b0.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1804231151380047#!/index/1804231151380047/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/24e8f31e-88d7-45ab-afba-646dfb4899bd.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807061247320196#!/index/1807061247320196/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/a816fcab-ed05-4469-bbb7-e3401545403b.png",
+                        "actLink": "https://m.bd-ego.com/afu/#/home"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 5,
+                "titleEn": "",
+                "attrSize": 4,
+                "width": "183",
+                "styleTitle": "一行四个图(可配置链接)",
+                "height": "193"
+            },
+            {
+                "margin": "0",
+                "pprd": "23023.27.",
+                "link": "",
+                "pageStyleId": 12,
+                "styleCode": "horizontal_four_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/6fe0c636-561b-49f9-8822-055a81046be3.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1806271123000095#!/index/1806271123000095/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/58db99b1-ce3a-4a73-908b-280ec1f8cb13.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807061242000195#!/index/1807061242000195/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/ed59b950-5a35-4d05-82ac-431905baaad1.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807061201590198#!/index/1807061201590198/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/db447b79-f93c-45d3-9792-e102e25aaebc.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812061146440153#!/index/1812061146440153/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 6,
+                "titleEn": "",
+                "attrSize": 4,
+                "width": "188",
+                "styleTitle": "一行四个图(可配置链接)",
+                "height": "193"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.61.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/4cd598ed-e83a-4c15-b3ea-f2f6f6046c05.gif",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901211148490308#!/index/1901211148490308/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 7,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "160"
+            },
+            {
+                "margin": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/c3b487a0-776b-482f-9f70-2baa792a48ce.png",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "sequence": 8,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "98"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.62.",
+                "link": "",
+                "pageStyleId": 3,
+                "styleCode": "horizontal_two_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/4264e5a0-6536-4fb1-bd5b-5e6956f6ce9e.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1810241837250072#!/index/1810241837250072/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/ddd57868-5a8f-4779-a965-3cbf21e9b5a5.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812121904020081#!/index/1812121904020081/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 9,
+                "titleEn": "",
+                "attrSize": 2,
+                "width": "375",
+                "styleTitle": "一行两个图(可配置链接)",
+                "height": "321"
+            },
+            {
+                "sequence": 10,
+                "margin": "2",
+                "titleEn": "秒杀",
+                "pprd": "23023.15.",
+                "attrSize": 1,
+                "link": "https://m.bd-ego.com/lp/customer/index.html?ptag=23023.33.1&actid=1706230925400028#!/index/1706230925400028/1",
+                "pageStyleId": 11,
+                "styleCode": "seckill_area",
+                "title": "限时秒杀",
+                "list": [
+                    {
+                        "activityId": "1706230925400028"
+                    }
+                ],
+                "linkName": "更多秒杀",
+                "styleTitle": "秒杀专区"
+            },
+            {
+                "margin": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/e08305fd-d0aa-4457-944d-6de91e414c9f.png",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "sequence": 11,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "60"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.29.",
+                "link": "",
+                "pageStyleId": 3,
+                "styleCode": "horizontal_two_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/12b0976f-66b3-470d-8bb3-54af1e33e7d1.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812171857350103#!/index/1812171857350103/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/6006f0bf-f707-40a4-8f9f-61ba4cc8d488.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812171855110276#!/index/1812171855110276/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 12,
+                "titleEn": "",
+                "attrSize": 2,
+                "width": "375",
+                "styleTitle": "一行两个图(可配置链接)",
+                "height": "168"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.35.",
+                "link": "",
+                "pageStyleId": 3,
+                "styleCode": "horizontal_two_act",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/9acca8e6-c27c-45b4-b9d4-66e2ba1ca64f.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1808231418050144#!/index/1808231418050144/1"
+                    },
+                    {
+                        "bannerImg": "https://img.allpyra.com/e33563e2-ad1f-4ce8-a1a5-72b9c67d9bd2.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1807111527140259#!/index/1807111527140259/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 13,
+                "titleEn": "",
+                "attrSize": 2,
+                "width": "375",
+                "styleTitle": "一行两个图(可配置链接)",
+                "height": "167"
+            },
+            {
+                "margin": "",
+                "pprd": "",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/c7f3a217-23ad-4a28-8270-909c70a47297.png",
+                        "actLink": ""
+                    }
+                ],
+                "linkName": "",
+                "sequence": 14,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "60"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.9.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/cf28f7c7-b0fe-4516-8ee0-50f25b496e2b.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901101816500170#!/index/1901101816500170/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 15,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 16,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "23023.8.",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1712051813420065"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.32.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/13c9b1e0-ab09-46be-885a-aeb1a8fd37c5.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901181753460293#!/index/1901181753460293/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 17,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 18,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "23023.10.",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1703221520220037"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.11.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/1646f7f0-c0ea-4a6c-87df-05ec02b3bd61.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901182209100274#!/index/1901182209100274/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 19,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 20,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "23023.16.",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1809050926590073"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.50.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/41253a57-1156-4a2c-835d-b645bcff1047.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901182155410296#!/index/1901182155410296/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 21,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 22,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "23023.51.",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1809050926400072"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.30.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/a3893909-bf0c-4b18-9db8-83bbcad7bcc1.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901161651450255#!/index/1901161651450255/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 23,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 24,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "23023.18.",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1809041143260045"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.31.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/30498a23-69fc-4e82-96de-91ff9a4e2a09.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901161813060220#!/index/1901161813060220/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 25,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 26,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "23023.19.",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1809041201460039"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.44.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/bdb5bacc-4559-43ab-bb83-7774bcb7e872.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1812300909340130#!/index/1812300909340130/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 27,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.45.",
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1809051014170074"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 28,
+                "titleEn": "",
+                "attrSize": 1,
+                "styleTitle": "横向可滑动多个商品",
+                "height": ""
+            },
+            {
+                "margin": "",
+                "pprd": "23023.42.",
+                "link": "",
+                "pageStyleId": 5,
+                "styleCode": "vertical_acts",
+                "title": "",
+                "list": [
+                    {
+                        "bannerImg": "https://img.allpyra.com/b75c823c-d829-4fb0-9091-612254f73591.png",
+                        "actLink": "https://m.bd-ego.com/lp/customer/index.html?actid=1901090900370156#!/index/1901090900370156/1"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 29,
+                "titleEn": "",
+                "attrSize": 1,
+                "width": "750",
+                "styleTitle": "一行一个图(可配置链接)",
+                "height": "280"
+            },
+            {
+                "sequence": 30,
+                "margin": "",
+                "titleEn": "",
+                "pprd": "",
+                "attrSize": 1,
+                "link": "",
+                "pageStyleId": 9,
+                "styleCode": "product_list_slide",
+                "title": "",
+                "list": [
+                    {
+                        "activityId": "1811160844360071"
+                    }
+                ],
+                "linkName": "",
+                "styleTitle": "横向可滑动多个商品"
+            },
+            {
+                "margin": "",
+                "pprd": "23023.3.",
+                "link": "",
+                "pageStyleId": 6,
+                "styleCode": "product_list_rows",
+                "title": "热门商品",
+                "list": [
+                    {
+                        "activityId": "1701031131360001"
+                    }
+                ],
+                "linkName": "",
+                "sequence": 31,
+                "titleEn": "",
+                "attrSize": 1,
+                "styleTitle": "一行两个商品列表",
+                "height": ""
+            }
+        ]
+    },
+    "desc": "成功",
+    "tid": "ad2c080d-2c7e-49bf-bd67-8455205c414b"
+}

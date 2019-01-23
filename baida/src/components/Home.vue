@@ -13,19 +13,28 @@
                 </mt-swipe-item>
             </mt-swipe>
             <div class="header-pl">
-                <div class="pl-top">
-                    <img src="" alt="">
+                <div class="pl-title" v-for="plt in plTitle" :key="plt.pid">
+                    <img :src="plt.url" alt="" />
                 </div>
-                <div class="pl-bottom">
-                    <cube-scroll
-                        ref="scroll"
-                        :data="itemGd"
-                        direction="horizontal"
-                        class="horizontal-scroll-list-wrap">
-                        <ul class="list-wrapper">
-                            <li class="list-item">{{item.itemLogoUrl}}</li>
-                        </ul>
-                    </cube-scroll>
+                <div class="pl"> 
+                    <div class="pl-top" v-for="gd in gdImg" :key="gd.tid">
+                    <img class="pl-img" :src="gd.url" alt="">
+                    </div>
+                    <div class="pl-bottom">
+                        <cube-scroll
+                            ref="scroll"
+                            :data="itemGd"
+                            direction="horizontal"
+                            class="horizontal-scroll-list-wrap">
+                            <ul class="list-wrapper">
+                                <li class="list-item" v-for="gd in itemGd" :key="gd.brandId">
+                                    <img class="gd-img" :src="gd.itemLogoUrl" alt="">
+                                    <h5 class="gd-h5">{{gd.itemTitle}}</h5>
+                                    <p class="gd-p">￥{{gd.salePrice}}</p>
+                                </li>
+                            </ul>
+                        </cube-scroll>
+                    </div>
                 </div>
             </div>
             <div class="header-rm">
@@ -105,7 +114,19 @@ export default {
                 }
             ],
             itemList:[],
-            itemGd:[]
+            itemGd:[],
+            plTitle:[
+                {
+                    pid:"1",
+                    url:"https://img.allpyra.com/c7f3a217-23ad-4a28-8270-909c70a47297.png"
+                }
+            ],
+            gdImg:[
+                {
+                    tid:"1",
+                    url:"https://img.allpyra.com/cf28f7c7-b0fe-4516-8ee0-50f25b496e2b.png"
+                }
+            ]
         }
     },
     mounted:function(){
@@ -165,6 +186,58 @@ export default {
     width: 100%;
     height: 100%;
 }
+.list-wrapper{
+    height: 100%;
+}
+.pl-title>img{
+    width: 100%;
+}
+.pl-img{
+    width: 100%;
+}
+.gd-img{
+    width: 460px;
+    height: 460px;
+}
+.gd-h5{
+    color: #cbcbcb;
+    width: 460px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.gd-p{
+    padding: 10px 0;
+    color: #e72714;
+    font-size: 36px;
+}
+.list-item{
+    padding-top: 26px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.horizontal-scroll-list-wrap{
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    border-radius: 5px
+}
+.cube-scroll-content{
+    display: inline-block;
+}
+.list-wrapper{
+    padding: 0 10px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.list-item{
+    display: inline-block
+}
+.cube-scroll-content{
+    background-color: #ffffff;
+}
 .hr-ul{
     width: 100%;
     height: 100%;
@@ -172,7 +245,7 @@ export default {
 .hr-p{
     width: 100%;
     height: 90px;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 90px;
     padding-left: 40px;
     box-sizing: border-box;
@@ -195,8 +268,8 @@ export default {
 }
 .hr-list{
     height: 80px;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 36px;
+    line-height: 42px;
     margin: 5px 20px 20px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -208,11 +281,11 @@ export default {
 }
 .price-list .price{
     color: #e72714;
-    font-size: 30px;
+    font-size: 42px;
 }
 .price-list .country{
     color: #666;
-    font-size: 32px;
+    font-size: 42px;
     text-align: right;
     position: absolute;
     bottom: 0px;

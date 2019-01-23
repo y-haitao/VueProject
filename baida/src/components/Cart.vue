@@ -129,8 +129,8 @@ export default {
     height: 100%;
 }
 .name-list{
-    height: 80px;
-    font-size: 32px;
+    height: 86px;
+    font-size: 36px;
     line-height: 40px;
     margin: 5px 20px 20px;
     overflow: hidden;
@@ -143,11 +143,11 @@ export default {
 }
 .price-list .price{
     color: #e72714;
-    font-size: 30px;
+    font-size: 40px;
 }
 .price-list .origin{
     color: #666;
-    font-size: 32px;
+    font-size: 42px;
     text-align: right;
     position: absolute;
     bottom: 0px;
