@@ -9,31 +9,18 @@
         <div class="cart-bottom">
             <p class="b-p">热门商品</p>
             <div class="bottom-list">
-                <ul>
-                    <li>
+                <ul class="bottoml-ul">
+                    <li v-for="item in itemList" :key="item.brandId">
                         <div class="img-list">
-                            <img src="../assets/cart/d4328440-841b-4bdb-96ec-fbdf0db76d82.jpg" alt="" />
-                            <span>秒杀价</span>
+                            <img :src="item.itemLogoUrl" alt="" />
+                            <!-- <span>秒杀价</span> -->
                         </div>
                         <div class="name-list">
-                            papa recipe春雨 黑色蜂蜜面膜 10片装*3盒
+                            {{item.itemTitle + "..."}}
                         </div>
                         <div class="price-list">
-                            <div class="price">￥269.00</div>
-                            <div class="origin">韩国</div>
-                        </div>
-                    </li>
-                     <li>
-                        <div class="img-list">
-                            <img src="../assets/cart/ad99f0b5-bd75-46f1-b86a-3f71f5523525.jpg" alt="" />
-                            <span>秒杀价</span>
-                        </div>
-                        <div class="name-list">
-                            papa recipe春雨 黑色蜂蜜面膜 10片装*3盒
-                        </div>
-                        <div class="price-list">
-                            <div class="price">￥269.00</div>
-                            <div class="origin">韩国</div>
+                            <div class="price">￥{{item.salePrice}}</div>
+                            <div class="origin">{{item.country}}</div>
                         </div>
                     </li>
                 </ul>
@@ -55,8 +42,17 @@ export default {
     methods:{
         getDate:function () {  
             var self = this;
-            this.$http.get("#/cart/assets/cartlist.json").then(function(res){
-                console.log(res);
+            this.$http.get("static/cartlist.json").then(function(res){
+                // console.log(res);
+                for(var i = 0,len = res.body.data.list.length;i<len;i++){
+                    var selDate = res.body.data.list[i];
+                    console.log(selDate);
+                    //获取数组中的部分数据
+                    var urlimg = res.body.data.list[i].itemLogoUrl
+                    console.log(urlimg);
+                    //将获取的数据push到空的数组中itenList
+                    self.itemList.push(selDate);
+                }
             }).catch(function (error) {  
                 console.log(error);
             })
@@ -71,46 +67,90 @@ export default {
 }
 .cart-top{
     width: 100%;
-    height: 950px;
+    /* height: 550px; */
     background-color: #ffffff;
     text-align: center;
-    padding: 200px 0 200px;
+    padding: 150px 0 150px;
     box-sizing: border-box;
 }
 .cart-top .top-img{
     width: 290px;
     height: 145px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .cart-top .top-p{
     color: #999;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 60px;
 }
 .cart-top .top-a{
     display: inline-block;
     text-align: center;
-    height: 110px;
+    height: 88px;
     color: #333;
     border: 1px solid #999;
-    font-size: 60px;
-    line-height: 110px;
+    font-size: 40px;
+    line-height: 88px;
     text-decoration: none;
     padding: 0 50px;
 }
 .cart-center{
-    height: 30px;
+    height: 20px;
 }
 .cart-bottom{
     background-color: #ffffff;
 }
 .b-p{
     width: 100%;
-    height: 115px;
-    font-size: 36px;
-    line-height: 115px;
+    height: 90px;
+    font-size: 24px;
+    line-height: 90px;
     padding-left: 40px;
     box-sizing: border-box;
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.bottoml-ul{
+    width: 100%;
+    height: 100%;
+}
+.bottoml-ul>li{
+    width: 50%;
+    height: 100%;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    float: left;
+    /* padding: 10px; */
+}
+.img-list{
+    padding: 50px 50px;
+}
+.img-list>img{
+    width: 100%;
+    height: 100%;
+}
+.name-list{
+    height: 80px;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 5px 20px 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price-list{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.price-list .price{
+    color: #e72714;
+    font-size: 30px;
+}
+.price-list .origin{
+    color: #666;
+    font-size: 32px;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
 }
 </style>

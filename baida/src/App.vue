@@ -95,11 +95,8 @@ export default {
   color: #e72714;
 }
 .mint-tab-item-label {
-  /* text-align: center; */
   font-size: 40px;
-  /* color: #cccccc; */
   background-size: 10px 10px;
   padding: 20px 0 10px;
-  /* position: relative; */
 }
 </style>

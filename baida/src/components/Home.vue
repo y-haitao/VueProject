@@ -12,6 +12,25 @@
                     <img :src="item.url" alt="">
                 </mt-swipe-item>
             </mt-swipe>
+            <div class="header-pl">
+
+            </div>
+            <div class="header-rm">
+                <ul class="hr-ul">
+                    <li>
+                        <div class="hr-img">
+                            <img src="" alt="" />
+                        </div>
+                        <div class="hr-list">
+
+                        </div>
+                        <div class="price-list">
+                            <div class="price"></div>
+                            <div class="country"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
@@ -67,12 +86,30 @@ export default {
                     uid:"10",
                     url:"https://img.allpyra.com/85be1afd-31f4-4aca-9a1b-cc8f1eb01895.jpg"
                 }
-            ]
+            ],
+            itemList:[]
         }
     },
+    mounted:function(){
+        this.getDate();
+    },
     methods:{
-        getLunbotu(){
-            
+        getDate:function () {  
+            var self = this;
+            this.$http.get("static/homeRemen.json").then(function(res){
+                // console.log(res);
+                for(var i = 0,len = res.body.data.list.length;i<len;i++){
+                    var selDate = res.body.data.list[i];
+                    console.log(selDate);
+                    //获取数组中的部分数据
+                    var urlimg = res.body.data.list[i].itemLogoUrl
+                    console.log(urlimg);
+                    //将获取的数据push到空的数组中itenList
+                    self.itemList.push(selDate);
+                }
+            }).catch(function (error) {  
+                console.log(error);
+            })
         }
     }
 }
