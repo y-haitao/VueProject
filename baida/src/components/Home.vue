@@ -13,20 +13,34 @@
                 </mt-swipe-item>
             </mt-swipe>
             <div class="header-pl">
-
+                <div class="pl-top">
+                    <img src="" alt="">
+                </div>
+                <div class="pl-bottom">
+                    <cube-scroll
+                        ref="scroll"
+                        :data="itemGd"
+                        direction="horizontal"
+                        class="horizontal-scroll-list-wrap">
+                        <ul class="list-wrapper">
+                            <li class="list-item">轮播图</li>
+                        </ul>
+                    </cube-scroll>
+                </div>
             </div>
             <div class="header-rm">
+                <p class="hr-p">热门商品</p>
                 <ul class="hr-ul">
-                    <li>
+                    <li v-for="item in itemList" :key="item.brandId">
                         <div class="hr-img">
-                            <img src="" alt="" />
+                            <img :src="item.itemLogoUrl" alt="" />
                         </div>
                         <div class="hr-list">
-
+                            {{item.itemTitle}}
                         </div>
                         <div class="price-list">
-                            <div class="price"></div>
-                            <div class="country"></div>
+                            <div class="price">￥{{item.salePrice}}</div>
+                            <div class="country">{{item.country}}</div>
                         </div>
                     </li>
                 </ul>
@@ -41,6 +55,10 @@ import Vue from "vue";
 import MintUI from "mint-ui";
 Vue.use(MintUI);
 import "mint-ui/lib/style.css";
+//引入cube-ui
+import Vue from 'vue'
+import Cube from 'cube-ui'
+Vue.use(Cube)
 
 export default {
     data(){
@@ -87,7 +105,8 @@ export default {
                     url:"https://img.allpyra.com/85be1afd-31f4-4aca-9a1b-cc8f1eb01895.jpg"
                 }
             ],
-            itemList:[]
+            itemList:[],
+            itemGd:[]
         }
     },
     mounted:function(){
@@ -100,10 +119,10 @@ export default {
                 // console.log(res);
                 for(var i = 0,len = res.body.data.list.length;i<len;i++){
                     var selDate = res.body.data.list[i];
-                    console.log(selDate);
+                    // console.log(selDate);
                     //获取数组中的部分数据
                     var urlimg = res.body.data.list[i].itemLogoUrl
-                    console.log(urlimg);
+                    // console.log(urlimg);
                     //将获取的数据push到空的数组中itenList
                     self.itemList.push(selDate);
                 }
@@ -116,20 +135,73 @@ export default {
 </script>
 
 <style>
-    .mint-header{
-      height: 120px;
-      width: 100%;
-    }
-    .mint-swipe{
-        padding-top: 120px;
-        height: 600px;
-    }
-    .mint-swipe-item{
-        width: 100%;
-        height: 100%;
-    }
-    .mint-swipe-item img{
-        width: 100%;
-        height: 100%;
-    }
+.mint-header{
+    height: 120px;
+    width: 100%;
+}
+.mint-swipe{
+    padding-top: 120px;
+    height: 600px;
+}
+.mint-swipe-item{
+    width: 100%;
+    height: 100%;
+}
+.mint-swipe-item img{
+    width: 100%;
+    height: 100%;
+}
+.hr-ul{
+    width: 100%;
+    height: 100%;
+}
+.hr-p{
+    width: 100%;
+    height: 90px;
+    font-size: 24px;
+    line-height: 90px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eeeeee;
+}
+.hr-ul>li{
+    width: 50%;
+    height: 100%;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    float: left;
+    /* padding: 10px; */
+}
+.hr-img{
+    padding: 50px 50px;
+}
+.hr-img>img{
+    width: 100%;
+    height: 100%;
+}
+.hr-list{
+    height: 80px;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 5px 20px 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price-list{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.price-list .price{
+    color: #e72714;
+    font-size: 30px;
+}
+.price-list .country{
+    color: #666;
+    font-size: 32px;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+}
 </style>
