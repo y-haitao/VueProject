@@ -23,7 +23,7 @@
                         direction="horizontal"
                         class="horizontal-scroll-list-wrap">
                         <ul class="list-wrapper">
-                            <li class="list-item">轮播图</li>
+                            <li class="list-item">{{item.itemLogoUrl}}</li>
                         </ul>
                     </cube-scroll>
                 </div>
@@ -56,7 +56,6 @@ import MintUI from "mint-ui";
 Vue.use(MintUI);
 import "mint-ui/lib/style.css";
 //引入cube-ui
-import Vue from 'vue'
 import Cube from 'cube-ui'
 Vue.use(Cube)
 
@@ -111,6 +110,7 @@ export default {
     },
     mounted:function(){
         this.getDate();
+        this.getNews();
     },
     methods:{
         getDate:function () {  
@@ -125,6 +125,20 @@ export default {
                     // console.log(urlimg);
                     //将获取的数据push到空的数组中itenList
                     self.itemList.push(selDate);
+                }
+            }).catch(function (error) {  
+                console.log(error);
+            })
+        },
+        getNews:function () {  
+            var self = this;
+            this.$http.get("static/homeimg/home-gd1.json").then(function(res){
+                // console.log(res);
+                for(var i = 0,len = res.body.data.list.length;i<len;i++){
+                    var selNews = res.body.data.list[i];
+                    console.log(selNews);
+                    //将获取的数据push到空的数组中itenList
+                    self.itemGd.push(selNews);
                 }
             }).catch(function (error) {  
                 console.log(error);
