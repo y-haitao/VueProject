@@ -30,10 +30,10 @@ export default {
                 // console.log(res);
                 for(var i = 0,len = res.body.data.list.length;i<len;i++){
                     var selDate = res.body.data.list[i];
-                    console.log(selDate);
+                    // console.log(selDate);
                     //获取数组中的部分数据
                     var urlimg = res.body.data.list[i].brandLogo
-                    console.log(urlimg);
+                    // console.log(urlimg);
                     //将获取的数据push到空的数组中itenList
                     self.itemList.push(selDate);
                 }

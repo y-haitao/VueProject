@@ -10,7 +10,7 @@
             <p class="b-p">热门商品</p>
             <div class="bottom-list">
                 <ul class="bottoml-ul">
-                    <li v-for="item in itemList" :key="item.brandId">
+                    <li v-for="(item,index) in itemList" :key="index">
                         <div class="img-list">
                             <img :src="item.itemLogoUrl" alt="" />
                             <!-- <span>秒杀价</span> -->
@@ -46,10 +46,10 @@ export default {
                 // console.log(res);
                 for(var i = 0,len = res.body.data.list.length;i<len;i++){
                     var selDate = res.body.data.list[i];
-                    console.log(selDate);
+                    // console.log(selDate);
                     //获取数组中的部分数据
                     var urlimg = res.body.data.list[i].itemLogoUrl
-                    console.log(urlimg);
+                    // console.log(urlimg);
                     //将获取的数据push到空的数组中itenList
                     self.itemList.push(selDate);
                 }

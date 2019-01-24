@@ -11,18 +11,18 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/bdapi': {
-        target: "https://m.bd-ego.com", // 代理服务器
-        changeOrigin: true,
-        pathRewrite: {
-          '^/bdapi': ''
-        } // 替换部分路径
-      },
-      host:'0.0.0.0',//localhost,127.0.0.1,ip地址都可以访问
+      // '/bdapi': {
+      //   target: "https://m.bd-ego.com", // 代理服务器
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/bdapi': ''
+      //   } // 替换部分路径
+      // }
+      // host:'0.0.0.0',//localhost,127.0.0.1,ip地址都可以访问
     },
 
     // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
+    host: '0.0.0.0', // can be overwritten by process.env.HOST
     port: 3000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
