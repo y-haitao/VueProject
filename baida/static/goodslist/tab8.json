@@ -1,0 +1,91 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 9,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "手提包",
+            "logourl": "https://img.allpyra.com/eb12cb17-07ae-4a97-9aa8-8b228c4d18e8.jpg",
+            "parentCategId": 9,
+            "scid": 10149,
+            "sequence": null
+        },
+        {
+            "categName": "双肩包",
+            "logourl": "https://img.allpyra.com/6e327b49-f0a1-4cdf-a114-453660fe5940.jpg",
+            "parentCategId": 9,
+            "scid": 10150,
+            "sequence": null
+        },
+        {
+            "categName": "钱包",
+            "logourl": "https://img.allpyra.com/54224e62-c5e6-4b38-a944-79f272633f76.jpg",
+            "parentCategId": 9,
+            "scid": 10152,
+            "sequence": null
+        },
+        {
+            "categName": "单肩包",
+            "logourl": "https://img.allpyra.com/2f28b5b7-df48-4e77-b53f-7507952d0a7e.jpg",
+            "parentCategId": 9,
+            "scid": 10166,
+            "sequence": null
+        },
+        {
+            "categName": "斜挎包",
+            "logourl": "https://img.allpyra.com/46ef147c-2fd8-4434-a1d9-4b44fbd1e83a.jpg",
+            "parentCategId": 9,
+            "scid": 10203,
+            "sequence": null
+        },
+        {
+            "categName": "鞋靴",
+            "logourl": "https://img.allpyra.com/872662e6-78f8-4521-98d1-6c728b710b37.jpg",
+            "parentCategId": 9,
+            "scid": 10204,
+            "sequence": null
+        },
+        {
+            "categName": "行李箱",
+            "logourl": "https://img.allpyra.com/83ba1076-f439-4119-9243-c414e2cc68c9.jpg",
+            "parentCategId": 9,
+            "scid": 10205,
+            "sequence": null
+        },
+        {
+            "categName": "凉鞋",
+            "logourl": "https://img.allpyra.com/751be26f-6793-4d78-8b62-897a3e8cf9ab.jpg",
+            "parentCategId": 9,
+            "scid": 10225,
+            "sequence": null
+        },
+        {
+            "categName": "运动短裤",
+            "logourl": "https://img.allpyra.com/5ebba42f-603f-41a5-92ab-9ee5c93ff0b3.jpg",
+            "parentCategId": 9,
+            "scid": 10227,
+            "sequence": null
+        },
+        {
+            "categName": "运动鞋",
+            "logourl": "https://img.allpyra.com/0c849d74-f5de-4a1c-89de-bf427dfa2220.jpg",
+            "parentCategId": 9,
+            "scid": 10230,
+            "sequence": null
+        },
+        {
+            "categName": "服饰配饰",
+            "logourl": "https://img.allpyra.com/6be5a22e-3c91-4600-a76e-1d473c2e7f38.jpg",
+            "parentCategId": 9,
+            "scid": 10232,
+            "sequence": null
+        }
+    ],
+    "desc": "成功",
+    "tid": "9021f38d-ec37-47d8-a16e-f988fdd69460"
+}

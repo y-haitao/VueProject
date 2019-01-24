@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="home">
         <div class="header">
             <mt-header fixed>
                 <router-link to="/m" slot="left">
@@ -549,6 +549,10 @@ export default {
 </script>
 
 <style>
+.home{
+    height: 100%;
+    padding-bottom: 170px;
+}
 .mint-header{
     height: 120px;
     width: 100%;

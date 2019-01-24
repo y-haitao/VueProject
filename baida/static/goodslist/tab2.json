@@ -1,0 +1,112 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 2,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "面膜",
+            "logourl": "https://img.allpyra.com/b2ec5263-3595-4212-ada1-d1d02458409b.png",
+            "parentCategId": 2,
+            "scid": 10049,
+            "sequence": 1
+        },
+        {
+            "categName": "防晒隔离",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/c-002.png",
+            "parentCategId": 2,
+            "scid": 10050,
+            "sequence": 2
+        },
+        {
+            "categName": "爽肤水",
+            "logourl": "https://img.allpyra.com/6d398776-438b-48c4-b6d9-e47cfe78b6ef.png",
+            "parentCategId": 2,
+            "scid": 10074,
+            "sequence": 3
+        },
+        {
+            "categName": "面霜乳液",
+            "logourl": "https://img.allpyra.com/ae118562-dbd9-4e7a-9f37-5fd57b7ab303.png",
+            "parentCategId": 2,
+            "scid": 10073,
+            "sequence": 4
+        },
+        {
+            "categName": "精华液",
+            "logourl": "https://img.allpyra.com/a4559e1a-7154-4b35-ae7f-25e681fc79c7.png",
+            "parentCategId": 2,
+            "scid": 10075,
+            "sequence": 5
+        },
+        {
+            "categName": "眼部护理",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/c-009.png",
+            "parentCategId": 2,
+            "scid": 10080,
+            "sequence": 6
+        },
+        {
+            "categName": "洁面",
+            "logourl": "https://img.allpyra.com/31fa87e6-f57e-4a05-a641-9dd68ac81ca2.png",
+            "parentCategId": 2,
+            "scid": 10091,
+            "sequence": 7
+        },
+        {
+            "categName": "卸妆",
+            "logourl": "https://img.allpyra.com/004e01ed-f609-48b5-8b8a-c0651fc0fe8b.png",
+            "parentCategId": 2,
+            "scid": 10078,
+            "sequence": 8
+        },
+        {
+            "categName": "护肤套装",
+            "logourl": "https://img.allpyra.com/c1e2e3e9-df1c-45b1-ad71-7b453c5024ab.png",
+            "parentCategId": 2,
+            "scid": 10148,
+            "sequence": 9
+        },
+        {
+            "categName": "唇部护理",
+            "logourl": "https://img.allpyra.com/d8a2cc65-8308-4865-be88-0920df5d4b59.png",
+            "parentCategId": 2,
+            "scid": 10099,
+            "sequence": 10
+        },
+        {
+            "categName": "底妆",
+            "logourl": "https://img.allpyra.com/ecf82cb3-941c-425f-ac92-cba71d62058a.png",
+            "parentCategId": 2,
+            "scid": 10147,
+            "sequence": 11
+        },
+        {
+            "categName": "彩妆",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/c-011.png",
+            "parentCategId": 2,
+            "scid": 10098,
+            "sequence": 12
+        },
+        {
+            "categName": "香水/精油",
+            "logourl": "https://img.allpyra.com/0a04aef8-a84b-4fa5-a691-b030b32edf1e.png",
+            "parentCategId": 2,
+            "scid": 10100,
+            "sequence": 13
+        },
+        {
+            "categName": "美容工具",
+            "logourl": "https://img.allpyra.com/e8061e41-a233-4ff6-94d7-99ef23b0c949.png",
+            "parentCategId": 2,
+            "scid": 10144,
+            "sequence": 14
+        }
+    ],
+    "desc": "成功",
+    "tid": "bb64e2b5-fec2-4e41-8c43-c71f3365a6f1"
+}

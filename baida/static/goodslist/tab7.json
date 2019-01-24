@@ -1,0 +1,70 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 10,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "女表",
+            "logourl": "https://img.allpyra.com/f65fab39-07ec-4a79-a4c9-5b8e27c31c56.jpg",
+            "parentCategId": 10,
+            "scid": 10137,
+            "sequence": null
+        },
+        {
+            "categName": "项链",
+            "logourl": "https://img.allpyra.com/f5588f81-d099-4918-8aeb-af408e19993a.jpg",
+            "parentCategId": 10,
+            "scid": 10153,
+            "sequence": null
+        },
+        {
+            "categName": "手链手镯",
+            "logourl": "https://img.allpyra.com/8d8cf471-3411-4677-a417-01f6018323c5.jpg",
+            "parentCategId": 10,
+            "scid": 10154,
+            "sequence": null
+        },
+        {
+            "categName": "太阳镜",
+            "logourl": "https://img.allpyra.com/a8273b97-d6e3-46a1-b084-527003a97c4a.jpg",
+            "parentCategId": 10,
+            "scid": 10156,
+            "sequence": null
+        },
+        {
+            "categName": "耳饰",
+            "logourl": "https://img.allpyra.com/b5fc5365-72c3-4047-9f13-7ad487b1c837.jpg",
+            "parentCategId": 10,
+            "scid": 10160,
+            "sequence": null
+        },
+        {
+            "categName": "戒指",
+            "logourl": "https://img.allpyra.com/40a5ac10-0164-47b0-a4ee-b2264436e5fb.jpg",
+            "parentCategId": 10,
+            "scid": 10164,
+            "sequence": null
+        },
+        {
+            "categName": "男表",
+            "logourl": "https://img.allpyra.com/705e8102-ad6f-4928-bac1-70b16f9bd746.jpg",
+            "parentCategId": 10,
+            "scid": 10172,
+            "sequence": null
+        },
+        {
+            "categName": "串珠吊坠",
+            "logourl": "https://img.allpyra.com/2bd2b698-2e65-49f3-8f10-7259621caa90.jpg",
+            "parentCategId": 10,
+            "scid": 10199,
+            "sequence": null
+        }
+    ],
+    "desc": "成功",
+    "tid": "5460aa07-16ef-4315-82a3-13bd2db029fb"
+}

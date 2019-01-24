@@ -47,6 +47,7 @@
 <style>
 .classify{
     height: 100%;
+    padding-bottom: 170px;
 }
 .search{
     width: 100%;

@@ -1,0 +1,126 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 4,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "美白秘籍",
+            "logourl": "https://img.allpyra.com/43507e2a-0ff2-4097-be53-131d14e39eb1.jpg",
+            "parentCategId": 4,
+            "scid": 10175,
+            "sequence": 1
+        },
+        {
+            "categName": "女性养护",
+            "logourl": "https://img.allpyra.com/0f2e8ab8-d23f-40bf-821f-7a215bd7da6b.jpg",
+            "parentCategId": 4,
+            "scid": 10039,
+            "sequence": 2
+        },
+        {
+            "categName": "男士健康",
+            "logourl": "https://img.allpyra.com/53f370e9-8b71-4a02-b862-c6534b656fc3.jpg",
+            "parentCategId": 4,
+            "scid": 10163,
+            "sequence": 3
+        },
+        {
+            "categName": "瘦身减脂",
+            "logourl": "https://img.allpyra.com/038f1a27-ab53-46db-b597-744cfc3d2938.jpg",
+            "parentCategId": 4,
+            "scid": 10093,
+            "sequence": 4
+        },
+        {
+            "categName": "营养补充",
+            "logourl": "https://img.allpyra.com/f4c3bcd7-edaa-4e5b-b4c8-83ec8670ec51.jpg",
+            "parentCategId": 4,
+            "scid": 10040,
+            "sequence": 5
+        },
+        {
+            "categName": "改善睡眠",
+            "logourl": "https://img.allpyra.com/0a3fe150-447d-48c3-8246-c7ef1f3881e3.jpg",
+            "parentCategId": 4,
+            "scid": 10201,
+            "sequence": 6
+        },
+        {
+            "categName": "护肝养胃",
+            "logourl": "https://img.allpyra.com/53a25340-bb10-41f2-917e-de92468db4f5.jpg",
+            "parentCategId": 4,
+            "scid": 10176,
+            "sequence": 7
+        },
+        {
+            "categName": "排毒养颜",
+            "logourl": "https://img.allpyra.com/2093974f-6b38-415d-91e2-d322c2541b58.jpg",
+            "parentCategId": 4,
+            "scid": 10189,
+            "sequence": 8
+        },
+        {
+            "categName": "明目益智",
+            "logourl": "https://img.allpyra.com/8edfb44e-a3df-40ba-a37e-a98cfcbb28a7.jpg",
+            "parentCategId": 4,
+            "scid": 10174,
+            "sequence": 9
+        },
+        {
+            "categName": "调节免疫",
+            "logourl": "https://img.allpyra.com/59f4e2a2-1f77-4eb2-b6f8-0197495524e9.jpg",
+            "parentCategId": 4,
+            "scid": 10140,
+            "sequence": 10
+        },
+        {
+            "categName": "骨骼健康",
+            "logourl": "https://img.allpyra.com/8d4ced47-de14-4746-9389-731842410e20.jpg",
+            "parentCategId": 4,
+            "scid": 10048,
+            "sequence": 11
+        },
+        {
+            "categName": "心脑血管",
+            "logourl": "https://img.allpyra.com/180919dd-31a6-48a2-a2f6-300ec9d2471e.jpg",
+            "parentCategId": 4,
+            "scid": 10193,
+            "sequence": 13
+        },
+        {
+            "categName": "儿童保健",
+            "logourl": "https://img.allpyra.com/c6b5ecc8-0bac-4716-b0dd-384b2a87fb98.jpg",
+            "parentCategId": 4,
+            "scid": 10190,
+            "sequence": 14
+        },
+        {
+            "categName": "调节三高",
+            "logourl": "https://img.allpyra.com/1c791aaa-bb9c-4c58-abfd-706588319c39.jpg",
+            "parentCategId": 4,
+            "scid": 10218,
+            "sequence": 15
+        },
+        {
+            "categName": "清肺润喉",
+            "logourl": "https://img.allpyra.com/1f947fd1-a734-400c-87bb-ecc6b5c8e852.jpg",
+            "parentCategId": 4,
+            "scid": 10217,
+            "sequence": 16
+        },
+        {
+            "categName": "健身增肌",
+            "logourl": "https://img.allpyra.com/dd57ff45-8217-4613-b3fc-af01a40a96ed.jpg",
+            "parentCategId": 4,
+            "scid": 10215,
+            "sequence": 17
+        }
+    ],
+    "desc": "成功",
+    "tid": "5b6f130e-bad8-4be0-a82a-427302efd27c"
+}

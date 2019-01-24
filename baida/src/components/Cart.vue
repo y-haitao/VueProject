@@ -63,7 +63,9 @@ export default {
 
 <style>
 .cart{
+    height: 100%;
     background-color: #f4f4f4;
+    padding-bottom: 170px;
 }
 .cart-top{
     width: 100%;

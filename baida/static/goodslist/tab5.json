@@ -1,0 +1,119 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 5,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "洗发护发",
+            "logourl": "https://img.allpyra.com/71fb8f6c-fa87-4679-a2f7-42195aa6b261.jpg",
+            "parentCategId": 5,
+            "scid": 10192,
+            "sequence": 1
+        },
+        {
+            "categName": "沐浴清洁",
+            "logourl": "https://img.allpyra.com/81fe73d0-df0b-460b-8d53-9c3df9f3907f.jpg",
+            "parentCategId": 5,
+            "scid": 10169,
+            "sequence": 2
+        },
+        {
+            "categName": "生活护理",
+            "logourl": "https://img.allpyra.com/c6629fe1-2b28-486c-b238-3427d7cba1c1.jpg",
+            "parentCategId": 5,
+            "scid": 10177,
+            "sequence": 3
+        },
+        {
+            "categName": "驱蚊杀虫",
+            "logourl": "https://img.allpyra.com/51e134af-00b7-4924-9201-f2eac93ead84.jpg",
+            "parentCategId": 5,
+            "scid": 10188,
+            "sequence": 4
+        },
+        {
+            "categName": "眼罩口罩",
+            "logourl": "https://img.allpyra.com/b1c8a0d2-05e2-4b35-88d7-54addff83aeb.jpg",
+            "parentCategId": 5,
+            "scid": 10168,
+            "sequence": 5
+        },
+        {
+            "categName": "口腔护理",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/a-009.png",
+            "parentCategId": 5,
+            "scid": 10103,
+            "sequence": 6
+        },
+        {
+            "categName": "女性护理",
+            "logourl": "https://img.allpyra.com/9d608b37-80d4-46d2-b219-b5f731e1fb44.jpg",
+            "parentCategId": 5,
+            "scid": 10141,
+            "sequence": 7
+        },
+        {
+            "categName": "厨房用品",
+            "logourl": "https://img.allpyra.com/76fdf56f-267f-4e8b-b084-8e8ca8d0af4d.jpg",
+            "parentCategId": 5,
+            "scid": 10030,
+            "sequence": 8
+        },
+        {
+            "categName": "水杯水壶",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/a-005.png",
+            "parentCategId": 5,
+            "scid": 10066,
+            "sequence": 9
+        },
+        {
+            "categName": "成人用品",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/a-011.png",
+            "parentCategId": 5,
+            "scid": 10134,
+            "sequence": 11
+        },
+        {
+            "categName": "个护工具",
+            "logourl": "https://img.allpyra.com/c4022651-6ecc-4bfe-8529-0e500b6fa08c.jpg",
+            "parentCategId": 5,
+            "scid": 10021,
+            "sequence": 12
+        },
+        {
+            "categName": "办公文具",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/b-002.png",
+            "parentCategId": 5,
+            "scid": 10024,
+            "sequence": 13
+        },
+        {
+            "categName": "清洁用品",
+            "logourl": "http://st.allpyra.com/data/static/op/fic/a-004.png",
+            "parentCategId": 5,
+            "scid": 10037,
+            "sequence": 14
+        },
+        {
+            "categName": "家用电器",
+            "logourl": "https://img.allpyra.com/ea035bad-538a-4fd7-9c2e-c89b66595798.jpg",
+            "parentCategId": 5,
+            "scid": 10197,
+            "sequence": 15
+        },
+        {
+            "categName": "身体护理",
+            "logourl": "https://img.allpyra.com/650ae93c-fabc-4f29-896e-246b57a32ce3.jpg",
+            "parentCategId": 5,
+            "scid": 10198,
+            "sequence": 16
+        }
+    ],
+    "desc": "成功",
+    "tid": "aeb8ec3d-fe50-4889-b62d-65234e3bc63c"
+}

@@ -1,0 +1,70 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 12,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "美容化妆",
+            "logourl": "https://img.allpyra.com/969f2fcc-1695-4a9b-94e4-0c3842e57d59.jpg",
+            "parentCategId": 12,
+            "scid": 10206,
+            "sequence": null
+        },
+        {
+            "categName": "个人护理",
+            "logourl": "https://img.allpyra.com/e672293c-86b3-4b7e-a9db-6a6dc04bc9b8.jpg",
+            "parentCategId": 12,
+            "scid": 10207,
+            "sequence": null
+        },
+        {
+            "categName": "食品酒水",
+            "logourl": "https://img.allpyra.com/dfa2eafa-5c9d-488b-b330-8538c57f799c.jpg",
+            "parentCategId": 12,
+            "scid": 10208,
+            "sequence": null
+        },
+        {
+            "categName": "粮油乳品",
+            "logourl": "https://img.allpyra.com/649d2c39-747b-40b5-8060-6380ddd204d6.jpg",
+            "parentCategId": 12,
+            "scid": 10209,
+            "sequence": null
+        },
+        {
+            "categName": "日用家居",
+            "logourl": "https://img.allpyra.com/b96a38b7-a184-4df4-a890-bff205f53e69.jpg",
+            "parentCategId": 12,
+            "scid": 10210,
+            "sequence": null
+        },
+        {
+            "categName": "3C家电",
+            "logourl": "https://img.allpyra.com/e5bd7a42-1043-4d4a-bc96-f5788f6b5177.jpg",
+            "parentCategId": 12,
+            "scid": 10211,
+            "sequence": null
+        },
+        {
+            "categName": "母婴用品",
+            "logourl": "https://img.allpyra.com/50829bc0-305f-49b0-8443-673f1738c99d.jpg",
+            "parentCategId": 12,
+            "scid": 10212,
+            "sequence": null
+        },
+        {
+            "categName": "生活服务",
+            "logourl": "https://img.allpyra.com/8425e6c7-3741-4394-ae15-f96ad18ff670.jpg",
+            "parentCategId": 12,
+            "scid": 10213,
+            "sequence": null
+        }
+    ],
+    "desc": "成功",
+    "tid": "7e7b5703-aad0-45bb-bd5a-7f295625b497"
+}

@@ -3,7 +3,6 @@
     <div id="app">
         <!-- 上方切换的 router 部分 -->
         <router-view/>
-  
         <!-- 下方固定的部分 -->
         <mt-tabbar v-model="selected" fixed>
             <mt-tab-item
@@ -81,8 +80,11 @@ export default {
 /* 引入公共样式 */
 @import '../src/css/base.css';
 #app{
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   height: 100%;
+}
+router-view {
+  padding-bottom: 170px;
 }
 .mint-tabbar {
   background: #fff;

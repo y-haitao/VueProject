@@ -1,0 +1,63 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 6,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "头戴耳机",
+            "logourl": "https://img.allpyra.com/43c7d1ed-e31f-43b6-9124-f8ed480dc976.png",
+            "parentCategId": 6,
+            "scid": 10161,
+            "sequence": null
+        },
+        {
+            "categName": "音响",
+            "logourl": "https://img.allpyra.com/14c3edd6-9e3c-4356-a1ec-9974670d565f.jpg",
+            "parentCategId": 6,
+            "scid": 10186,
+            "sequence": null
+        },
+        {
+            "categName": "数码相机",
+            "logourl": "https://img.allpyra.com/a5df49a4-d293-4c13-a2e2-9674eaa379e6.jpg",
+            "parentCategId": 6,
+            "scid": 10196,
+            "sequence": null
+        },
+        {
+            "categName": "入耳耳机",
+            "logourl": "https://img.allpyra.com/9486d19f-3be9-4679-a3ff-605d233d435e.jpg",
+            "parentCategId": 6,
+            "scid": 10200,
+            "sequence": null
+        },
+        {
+            "categName": "手机/配件",
+            "logourl": "https://img.allpyra.com/0ded93f3-dea3-4077-8645-cb418dd0b908.png",
+            "parentCategId": 6,
+            "scid": 10214,
+            "sequence": null
+        },
+        {
+            "categName": "智能设备",
+            "logourl": "https://img.allpyra.com/24ea7fc9-ab51-4b4c-ad35-79041ed87b9c.jpg",
+            "parentCategId": 6,
+            "scid": 10233,
+            "sequence": null
+        },
+        {
+            "categName": "生活电器",
+            "logourl": "https://img.allpyra.com/2e96415c-68d6-441c-a8fe-2bde7006545b.jpg",
+            "parentCategId": 6,
+            "scid": 10234,
+            "sequence": null
+        }
+    ],
+    "desc": "成功",
+    "tid": "aa86f7ac-ef2b-416e-bc78-628af6f2357f"
+}

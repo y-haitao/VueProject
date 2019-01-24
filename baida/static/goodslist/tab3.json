@@ -1,0 +1,84 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 3,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "粮油副食",
+            "logourl": "https://img.allpyra.com/4a5b34c7-d704-45e4-bf3f-4cbab8c06887.jpg",
+            "parentCategId": 3,
+            "scid": 10058,
+            "sequence": null
+        },
+        {
+            "categName": "燕窝蜂蜜",
+            "logourl": "https://img.allpyra.com/158f2ad3-269d-439f-8bb0-dc6f8d2dacc5.jpg",
+            "parentCategId": 3,
+            "scid": 10070,
+            "sequence": null
+        },
+        {
+            "categName": "饼干糕点",
+            "logourl": "https://img.allpyra.com/4928e010-3f20-41c9-9af5-ea0a8d66299f.jpg",
+            "parentCategId": 3,
+            "scid": 10087,
+            "sequence": null
+        },
+        {
+            "categName": "乳品麦片",
+            "logourl": "https://img.allpyra.com/35ddd273-8544-44ad-804e-b8c227952a9a.jpg",
+            "parentCategId": 3,
+            "scid": 10136,
+            "sequence": null
+        },
+        {
+            "categName": "咖啡茶饮",
+            "logourl": "https://img.allpyra.com/2e4499dd-e367-4241-b931-5ce5578032eb.jpg",
+            "parentCategId": 3,
+            "scid": 10138,
+            "sequence": null
+        },
+        {
+            "categName": "休闲零食",
+            "logourl": "https://img.allpyra.com/2a94cb4a-fc56-476f-8bfa-068f8e8a7533.jpg",
+            "parentCategId": 3,
+            "scid": 10142,
+            "sequence": null
+        },
+        {
+            "categName": "酒水饮料",
+            "logourl": "https://img.allpyra.com/69049aca-e9a9-490c-a6e4-c13503ce7913.jpg",
+            "parentCategId": 3,
+            "scid": 10170,
+            "sequence": null
+        },
+        {
+            "categName": "鲜果花礼",
+            "logourl": "https://img.allpyra.com/03633966-b778-480f-a507-3baeef26b855.jpg",
+            "parentCategId": 3,
+            "scid": 10173,
+            "sequence": null
+        },
+        {
+            "categName": "果干蜜饯",
+            "logourl": "https://img.allpyra.com/d9f96290-5553-49cb-9151-d6cb857627fe.jpg",
+            "parentCategId": 3,
+            "scid": 10191,
+            "sequence": null
+        },
+        {
+            "categName": "糖果巧克力",
+            "logourl": "https://img.allpyra.com/d0f47636-4712-4f68-b4c1-376142b36f95.jpg",
+            "parentCategId": 3,
+            "scid": 10194,
+            "sequence": null
+        }
+    ],
+    "desc": "成功",
+    "tid": "fd364281-04b5-4403-b2f7-e3a649da5a69"
+}

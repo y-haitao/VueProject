@@ -1,0 +1,63 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "categName": "全部",
+            "logourl": "http://st.allpyra.com/data/static/op/cic/ic_category_all_default.png",
+            "parentCategId": 13,
+            "scid": 0,
+            "sequence": 0
+        },
+        {
+            "categName": "空调",
+            "logourl": "https://img.allpyra.com/5f2187ed-f193-454a-b6fc-8df1a75fde54.jpg",
+            "parentCategId": 13,
+            "scid": 10219,
+            "sequence": null
+        },
+        {
+            "categName": "冰箱",
+            "logourl": "https://img.allpyra.com/8c76b220-a0ec-4dd9-a52b-c8e514a5a210.jpg",
+            "parentCategId": 13,
+            "scid": 10220,
+            "sequence": null
+        },
+        {
+            "categName": "洗衣机",
+            "logourl": "https://img.allpyra.com/a4da6f2f-3d19-42ea-a54c-cb4ace9288b9.jpg",
+            "parentCategId": 13,
+            "scid": 10221,
+            "sequence": null
+        },
+        {
+            "categName": "电视",
+            "logourl": "https://img.allpyra.com/c5a5088b-781d-434e-b65e-8e1c7dc2f8e5.jpg",
+            "parentCategId": 13,
+            "scid": 10222,
+            "sequence": null
+        },
+        {
+            "categName": "小家电",
+            "logourl": "https://img.allpyra.com/6ff4813b-3b55-42b9-98d7-085080e0de53.jpg",
+            "parentCategId": 13,
+            "scid": 10223,
+            "sequence": null
+        },
+        {
+            "categName": "厨卫",
+            "logourl": "https://img.allpyra.com/7cf0a5d8-b3ef-4926-a933-4f2dbf79854a.jpg",
+            "parentCategId": 13,
+            "scid": 10235,
+            "sequence": null
+        },
+        {
+            "categName": "数码",
+            "logourl": "https://img.allpyra.com/d4ca5b00-88f4-4f7b-abf3-e38487605e1d.jpg",
+            "parentCategId": 13,
+            "scid": 10236,
+            "sequence": null
+        }
+    ],
+    "desc": "成功",
+    "tid": "14837c93-bb09-49fd-82d1-3155d486d4ee"
+}
